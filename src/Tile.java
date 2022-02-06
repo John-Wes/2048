@@ -57,73 +57,73 @@ public class Tile {
                 g.setColor(new Color(238, 228, 218));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(new Color(119, 110, 101));
-                g.drawString("2", x + 42, y + 57);
+                g.drawString("2", x + 40, y + 57);
                 break;
             case 4:
                 g.setColor(new Color(237, 224, 200));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(new Color(119, 110, 101));
-                g.drawString("4", x + 42, y + 57);
+                g.drawString("4", x + 40, y + 57);
                 break;
             case 8:
                 g.setColor(new Color(242, 177, 121));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(Color.WHITE);
-                g.drawString("8", x + 42, y + 57);
+                g.drawString("8", x + 40, y + 57);
                 break;
             case 16:
                 g.setColor(new Color(245, 149, 99));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(Color.WHITE);
-                g.drawString("16", x + 35, y + 57);
+                g.drawString("16", x + 30, y + 57);
                 break;
             case 32:
                 g.setColor(new Color(246, 124, 96));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(Color.WHITE);
-                g.drawString("32", x + 35, y + 57);
+                g.drawString("32", x + 30, y + 57);
                 break;
             case 64:
                 g.setColor(new Color(246, 94, 59));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(Color.WHITE);
-                g.drawString("64", x + 35, y + 57);
+                g.drawString("64", x + 30, y + 57);
                 break;
             case 128:
                 g.setColor(new Color(237, 207, 115));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(Color.WHITE);
-                g.drawString("128", x + 28, y + 57);
+                g.drawString("128", x + 20, y + 57);
                 break;
             case 256:
                 g.setColor(new Color(237, 204, 98));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(Color.WHITE);
-                g.drawString("256", x + 28, y + 57);
+                g.drawString("256", x + 20, y + 57);
                 break;
             case 512:
                 g.setColor(new Color(237, 200, 80));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(Color.WHITE);
-                g.drawString("512", x + 28, y + 57);
+                g.drawString("512", x + 20, y + 57);
                 break;
             case 1024:
                 g.setColor(new Color(237, 197, 63));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(Color.WHITE);
-                g.drawString("1024", x + 21, y + 57);
+                g.drawString("1024", x + 9, y + 57);
                 break;
             case 2048:
                 g.setColor(new Color(237, 194, 45));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(Color.WHITE);
-                g.drawString("2048", x + 21, y + 57);
+                g.drawString("2048", x + 9, y + 57);
                 break;
             default:
                 g.setColor(new Color(237, 194, 45));
                 g.fillRect(x, y, 100, 100);
                 g.setColor(Color.WHITE);
-                g.drawString(Integer.toString(val), x + 21, y + 57);
+                g.drawString(Integer.toString(val), x + 9, y + 57);
                 break;
         }
     }
